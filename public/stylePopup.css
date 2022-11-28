@@ -1,0 +1,27 @@
+body {
+  background-color: #22272e;
+}
+
+.container {
+  color: rgb(89, 170, 89);
+  border: 2px solid rgb(113, 136, 76);
+  border-radius: 3px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 10px 20px;
+}
+
+.container h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.container p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
