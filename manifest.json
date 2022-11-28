@@ -1,0 +1,21 @@
+{
+  "name": "Basic Extension",
+  "description": "Extension for changing background color help to read information well, reducing bad affect on eyes",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"], 
+      "css": ["style/styleChanging.css"],
+      "js": ["js/custom.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "public/popup.html",
+    "default_icon": "public/icon.png"
+  },
+  "icons": {
+    "48": "public/icon.png",
+    "128": "public/icon.png"
+  }
+}
